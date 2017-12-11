@@ -14,6 +14,7 @@
 		811F9B001FDC7FD80082F86B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811F9AFE1FDC7FD80082F86B /* LaunchScreen.storyboard */; };
 		811F9B0B1FDC7FD80082F86B /* JannahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F9B0A1FDC7FD80082F86B /* JannahTests.swift */; };
 		811F9B161FDC7FD80082F86B /* JannahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F9B151FDC7FD80082F86B /* JannahUITests.swift */; };
+		815C08451FDF038B0034A442 /* KitchenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815C08441FDF038B0034A442 /* KitchenViewController.swift */; };
 		818A9FA91FDD6B550081A43A /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818A9FA81FDD6B550081A43A /* HomeTabBarController.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		811F9B111FDC7FD80082F86B /* JannahUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JannahUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		811F9B151FDC7FD80082F86B /* JannahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JannahUITests.swift; sourceTree = "<group>"; };
 		811F9B171FDC7FD80082F86B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		815C08441FDF038B0034A442 /* KitchenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenViewController.swift; sourceTree = "<group>"; };
 		818A9FA81FDD6B550081A43A /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				818A9FA81FDD6B550081A43A /* HomeTabBarController.swift */,
+				815C08441FDF038B0034A442 /* KitchenViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				811F9AFB1FDC7FD80082F86B /* Jannah.xcdatamodeld in Sources */,
 				811F9AF31FDC7FD80082F86B /* AppDelegate.swift in Sources */,
 				818A9FA91FDD6B550081A43A /* HomeTabBarController.swift in Sources */,
+				815C08451FDF038B0034A442 /* KitchenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
