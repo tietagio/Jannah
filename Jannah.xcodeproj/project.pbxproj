@@ -15,6 +15,9 @@
 		811F9B0B1FDC7FD80082F86B /* JannahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F9B0A1FDC7FD80082F86B /* JannahTests.swift */; };
 		811F9B161FDC7FD80082F86B /* JannahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F9B151FDC7FD80082F86B /* JannahUITests.swift */; };
 		818A9FA91FDD6B550081A43A /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818A9FA81FDD6B550081A43A /* HomeTabBarController.swift */; };
+		818A9FAB1FDD779F0081A43A /* FamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818A9FAA1FDD779F0081A43A /* FamilyViewController.swift */; };
+		819AEEE41FDECC4300F98255 /* FamilyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819AEEE31FDECC4300F98255 /* FamilyCollectionViewCell.swift */; };
+		819AEEE61FDECE3C00F98255 /* RoundedAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819AEEE51FDECE3C00F98255 /* RoundedAvatarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		811F9B151FDC7FD80082F86B /* JannahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JannahUITests.swift; sourceTree = "<group>"; };
 		811F9B171FDC7FD80082F86B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		818A9FA81FDD6B550081A43A /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
+		818A9FAA1FDD779F0081A43A /* FamilyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyViewController.swift; sourceTree = "<group>"; };
+		819AEEE31FDECC4300F98255 /* FamilyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyCollectionViewCell.swift; sourceTree = "<group>"; };
+		819AEEE51FDECE3C00F98255 /* RoundedAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedAvatarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				818A9FA81FDD6B550081A43A /* HomeTabBarController.swift */,
+				818A9FAA1FDD779F0081A43A /* FamilyViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -151,6 +158,8 @@
 		818A9FA21FDD674F0081A43A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				819AEEE31FDECC4300F98255 /* FamilyCollectionViewCell.swift */,
+				819AEEE51FDECE3C00F98255 /* RoundedAvatarView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -312,6 +321,9 @@
 			files = (
 				811F9AFB1FDC7FD80082F86B /* Jannah.xcdatamodeld in Sources */,
 				811F9AF31FDC7FD80082F86B /* AppDelegate.swift in Sources */,
+				818A9FAB1FDD779F0081A43A /* FamilyViewController.swift in Sources */,
+				819AEEE61FDECE3C00F98255 /* RoundedAvatarView.swift in Sources */,
+				819AEEE41FDECC4300F98255 /* FamilyCollectionViewCell.swift in Sources */,
 				818A9FA91FDD6B550081A43A /* HomeTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
