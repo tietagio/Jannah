@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		810876681FE5E2DF004DC737 /* NewMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810876671FE5E2DF004DC737 /* NewMealViewController.swift */; };
 		8110C6321FDF0D4700A64ABD /* KitchenCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8110C6311FDF0D4700A64ABD /* KitchenCollectionViewController.swift */; };
 		8110C6341FDF0F3500A64ABD /* KitchenCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8110C6331FDF0F3500A64ABD /* KitchenCollectionViewCell.swift */; };
 		811F9AF31FDC7FD80082F86B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F9AF21FDC7FD80082F86B /* AppDelegate.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		810876671FE5E2DF004DC737 /* NewMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMealViewController.swift; sourceTree = "<group>"; };
 		8110C6311FDF0D4700A64ABD /* KitchenCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenCollectionViewController.swift; sourceTree = "<group>"; };
 		8110C6331FDF0F3500A64ABD /* KitchenCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenCollectionViewCell.swift; sourceTree = "<group>"; };
 		811F9AEF1FDC7FD80082F86B /* Jannah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jannah.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +154,7 @@
 				818A9FA81FDD6B550081A43A /* HomeTabBarController.swift */,
 				8110C6311FDF0D4700A64ABD /* KitchenCollectionViewController.swift */,
 				814007231FE5D428006AED69 /* MenuViewController.swift */,
+				810876671FE5E2DF004DC737 /* NewMealViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				811F9AF31FDC7FD80082F86B /* AppDelegate.swift in Sources */,
 				818A9FA91FDD6B550081A43A /* HomeTabBarController.swift in Sources */,
 				8110C6341FDF0F3500A64ABD /* KitchenCollectionViewCell.swift in Sources */,
+				810876681FE5E2DF004DC737 /* NewMealViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

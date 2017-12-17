@@ -21,7 +21,12 @@ class MenuViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func newMealButtonTapped(_ sender: UIButton) {
+        if let newMealViewController = storyboard?.instantiateViewController(withIdentifier: "New Meal View Controller"){
+            present(newMealViewController, animated: true)
+        }
+    }
+    
     /*
     // MARK: - Navigation
 
