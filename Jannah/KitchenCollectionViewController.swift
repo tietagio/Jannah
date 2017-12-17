@@ -129,6 +129,10 @@ extension KitchenCollectionViewController {
     
     // MARK:- UICollectionViewDelegate
     
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        // TOOD: Prepare Destination View Controller
+        performSegue(withIdentifier: "from kitchen to meal segue", sender: self)
+    }
     /*
      // Uncomment this method to specify if the specified item should be highlighted during tracking
      override func collectionView(_ collectionView: UICollectionView, shouldHighlightItemAt indexPath: IndexPath) -> Bool {

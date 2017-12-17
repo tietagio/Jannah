@@ -7,10 +7,12 @@
 //
 
 import UIKit
+import CloudKit
 
 class NewMealViewController: UIViewController {
 
     // MARK:- Private Vars
+    private var publicDatabase = CKContainer.default().publicCloudDatabase
     
     private lazy var stepOneViewController: UIViewController? = {
         let vc = storyboard?.instantiateViewController(withIdentifier: "meal step one view controller")
@@ -75,6 +77,7 @@ class NewMealViewController: UIViewController {
         super.viewDidLoad()
         
         childViewControllersPrepare([stepThreeViewController,stepTwoViewController,stepOneViewController])
+        
     }
     
     // MARK:- Private Methods

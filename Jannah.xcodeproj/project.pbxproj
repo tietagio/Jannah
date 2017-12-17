@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81025ED91FE714BA00EDD565 /* MMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81025ED81FE714BA00EDD565 /* MMediaView.swift */; };
+		81025EDB1FE71A8B00EDD565 /* MTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81025EDA1FE71A8B00EDD565 /* MTableView.swift */; };
 		810876681FE5E2DF004DC737 /* NewMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810876671FE5E2DF004DC737 /* NewMealViewController.swift */; };
 		8110C6321FDF0D4700A64ABD /* KitchenCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8110C6311FDF0D4700A64ABD /* KitchenCollectionViewController.swift */; };
 		8110C6341FDF0F3500A64ABD /* KitchenCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8110C6331FDF0F3500A64ABD /* KitchenCollectionViewCell.swift */; };
@@ -18,7 +20,11 @@
 		811F9B0B1FDC7FD80082F86B /* JannahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F9B0A1FDC7FD80082F86B /* JannahTests.swift */; };
 		811F9B161FDC7FD80082F86B /* JannahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F9B151FDC7FD80082F86B /* JannahUITests.swift */; };
 		814007241FE5D428006AED69 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814007231FE5D428006AED69 /* MenuViewController.swift */; };
+		817297F61FE6307800776F35 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817297F51FE6307800776F35 /* CloudKit.framework */; };
 		818A9FA91FDD6B550081A43A /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818A9FA81FDD6B550081A43A /* HomeTabBarController.swift */; };
+		81B8538D1FE6C0CF00604411 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B8538C1FE6C0CF00604411 /* MealViewController.swift */; };
+		81B8538F1FE6C19700604411 /* MHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B8538E1FE6C19700604411 /* MHeaderView.swift */; };
+		81B853921FE6C1CC00604411 /* MBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B853911FE6C1CC00604411 /* MBaseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		81025ED81FE714BA00EDD565 /* MMediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMediaView.swift; sourceTree = "<group>"; };
+		81025EDA1FE71A8B00EDD565 /* MTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTableView.swift; sourceTree = "<group>"; };
 		810876671FE5E2DF004DC737 /* NewMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMealViewController.swift; sourceTree = "<group>"; };
 		8110C6311FDF0D4700A64ABD /* KitchenCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenCollectionViewController.swift; sourceTree = "<group>"; };
 		8110C6331FDF0F3500A64ABD /* KitchenCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -56,7 +64,12 @@
 		811F9B151FDC7FD80082F86B /* JannahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JannahUITests.swift; sourceTree = "<group>"; };
 		811F9B171FDC7FD80082F86B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		814007231FE5D428006AED69 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		817297F31FE62FA300776F35 /* Jannah.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jannah.entitlements; sourceTree = "<group>"; };
+		817297F51FE6307800776F35 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		818A9FA81FDD6B550081A43A /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
+		81B8538C1FE6C0CF00604411 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
+		81B8538E1FE6C19700604411 /* MHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHeaderView.swift; sourceTree = "<group>"; };
+		81B853911FE6C1CC00604411 /* MBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBaseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				817297F61FE6307800776F35 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +105,7 @@
 				811F9B091FDC7FD80082F86B /* JannahTests */,
 				811F9B141FDC7FD80082F86B /* JannahUITests */,
 				811F9AF01FDC7FD80082F86B /* Products */,
+				817297F41FE6307800776F35 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +122,7 @@
 		811F9AF11FDC7FD80082F86B /* Jannah */ = {
 			isa = PBXGroup;
 			children = (
+				817297F31FE62FA300776F35 /* Jannah.entitlements */,
 				811F9AF61FDC7FD80082F86B /* Main.storyboard */,
 				818A9FA31FDD67580081A43A /* Models */,
 				818A9FA21FDD674F0081A43A /* Views */,
@@ -136,6 +152,14 @@
 			path = JannahUITests;
 			sourceTree = "<group>";
 		};
+		817297F41FE6307800776F35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				817297F51FE6307800776F35 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		818A9FA01FDD67120081A43A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +179,7 @@
 				8110C6311FDF0D4700A64ABD /* KitchenCollectionViewController.swift */,
 				814007231FE5D428006AED69 /* MenuViewController.swift */,
 				810876671FE5E2DF004DC737 /* NewMealViewController.swift */,
+				81B8538C1FE6C0CF00604411 /* MealViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -163,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				8110C6331FDF0F3500A64ABD /* KitchenCollectionViewCell.swift */,
+				81B853901FE6C19F00604411 /* Meal View */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -186,6 +212,17 @@
 			children = (
 			);
 			name = Services;
+			sourceTree = "<group>";
+		};
+		81B853901FE6C19F00604411 /* Meal View */ = {
+			isa = PBXGroup;
+			children = (
+				81B8538E1FE6C19700604411 /* MHeaderView.swift */,
+				81B853911FE6C1CC00604411 /* MBaseView.swift */,
+				81025ED81FE714BA00EDD565 /* MMediaView.swift */,
+				81025EDA1FE71A8B00EDD565 /* MTableView.swift */,
+			);
+			name = "Meal View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +294,14 @@
 					811F9AEE1FDC7FD80082F86B = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					811F9B051FDC7FD80082F86B = {
 						CreatedOnToolsVersion = 9.2;
@@ -323,12 +368,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				811F9AFB1FDC7FD80082F86B /* Jannah.xcdatamodeld in Sources */,
+				81B8538D1FE6C0CF00604411 /* MealViewController.swift in Sources */,
 				814007241FE5D428006AED69 /* MenuViewController.swift in Sources */,
+				81025EDB1FE71A8B00EDD565 /* MTableView.swift in Sources */,
+				81B8538F1FE6C19700604411 /* MHeaderView.swift in Sources */,
 				8110C6321FDF0D4700A64ABD /* KitchenCollectionViewController.swift in Sources */,
 				811F9AF31FDC7FD80082F86B /* AppDelegate.swift in Sources */,
 				818A9FA91FDD6B550081A43A /* HomeTabBarController.swift in Sources */,
 				8110C6341FDF0F3500A64ABD /* KitchenCollectionViewCell.swift in Sources */,
 				810876681FE5E2DF004DC737 /* NewMealViewController.swift in Sources */,
+				81B853921FE6C1CC00604411 /* MBaseView.swift in Sources */,
+				81025ED91FE714BA00EDD565 /* MMediaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +544,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Jannah/Jannah.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EN3LUD45H3;
 				INFOPLIST_FILE = Jannah/Info.plist;
@@ -510,6 +561,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Jannah/Jannah.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EN3LUD45H3;
 				INFOPLIST_FILE = Jannah/Info.plist;

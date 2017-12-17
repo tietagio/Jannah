@@ -71,11 +71,30 @@
                     </navigationItem>
                     <connections>
                         <outlet property="menuBarButton" destination="whR-Gw-zwy" id="68Z-lP-SW9"/>
+                        <segue destination="iq4-SV-ug0" kind="show" identifier="from kitchen to meal segue" id="YgM-0o-b8z"/>
                     </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Zx-3R-1hq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="863" y="-3"/>
+        </scene>
+        <!--Meal View Controller-->
+        <scene sceneID="6kk-T8-wr8">
+            <objects>
+                <viewController id="iq4-SV-ug0" customClass="MealViewController" customModule="Jannah" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tfU-IV-tPa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="6Ca-El-Sef"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dyz-aM-2xW">
+                        <nil key="title"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="15y-Nn-a6H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="862" y="784"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="DyP-lK-2sg">
